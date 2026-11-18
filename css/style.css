@@ -263,8 +263,8 @@ section{ padding:96px 0; }
 .urgent-band.band-services .container{ flex-direction:row; flex-wrap:nowrap; align-items:center; text-align:left; justify-content:flex-start; gap:28px; }
 .band-copy{ display:flex; flex-direction:column; gap:6px; }
 @media (max-width:640px){ .urgent-band.band-services .container{ flex-direction:column; align-items:flex-start; gap:14px; } }
-.band-valoracion-icon{ width:auto; height:auto; display:block; }
-.band-valoracion-icon img{ width:auto; height:84px; max-width:84px; object-fit:contain; filter:brightness(0) invert(1); display:block; }
+.band-valoracion-icon{ width:104px; height:104px; border-radius:50%; background:#fff; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+.band-valoracion-icon img{ width:auto; height:70px; max-width:70px; object-fit:contain; display:block; }
 .band-title{ color:#fff; font-size:1.5rem; margin:0; }
 .urgent-band.band-services .band-lead{ color:#fff; margin:0; max-width:62ch; }
 
