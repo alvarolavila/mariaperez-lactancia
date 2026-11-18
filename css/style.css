@@ -257,6 +257,14 @@ section{ padding:96px 0; }
 .urgent-band .btn-outline{ border-color:var(--cream); color:var(--cream); }
 .urgent-band .btn-outline:hover{ background:var(--cream); color:var(--sage-deep); }
 
+/* Franja verde con texto + iconos de servicios */
+.urgent-band.band-services .container{ flex-direction:column; justify-content:center; text-align:center; gap:22px; }
+.band-lead{ max-width:62ch !important; font-size:1.05rem !important; opacity:1 !important; }
+.band-icons{ display:flex; gap:34px; justify-content:center; flex-wrap:wrap; }
+.band-icon{ display:inline-flex; width:64px; height:64px; align-items:center; justify-content:center; border-radius:50%; transition:transform .25s ease, background .25s ease; }
+.band-icon img{ width:auto; height:48px; max-width:48px; object-fit:contain; filter:brightness(0) invert(1); }
+.band-icon:hover, .band-icon:focus-visible{ transform:translateY(-3px); background:rgba(255,255,255,.12); }
+
 /* =============== SERVICES =============== */
 .services-grid{
   display:grid;
