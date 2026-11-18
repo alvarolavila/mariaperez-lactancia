@@ -260,10 +260,9 @@ section{ padding:96px 0; }
 /* Franja verde con texto + iconos de servicios */
 .urgent-band.band-services .container{ flex-direction:column; justify-content:center; text-align:center; gap:22px; }
 .band-lead{ max-width:62ch !important; font-size:1.05rem !important; opacity:1 !important; }
-.band-icons{ display:flex; gap:34px; justify-content:center; flex-wrap:wrap; }
-.band-icon{ display:inline-flex; width:64px; height:64px; align-items:center; justify-content:center; border-radius:50%; transition:transform .25s ease, background .25s ease; }
-.band-icon img{ width:auto; height:48px; max-width:48px; object-fit:contain; filter:brightness(0) invert(1); }
-.band-icon:hover, .band-icon:focus-visible{ transform:translateY(-3px); background:rgba(255,255,255,.12); }
+.band-valoracion-icon{ width:104px; height:104px; border-radius:50%; background:var(--cream); display:flex; align-items:center; justify-content:center; }
+.band-valoracion-icon img{ width:auto; height:76px; max-width:76px; object-fit:contain; }
+.band-title{ color:var(--cream); font-size:1.5rem; margin:0; }
 
 /* =============== SERVICES =============== */
 .services-grid{
